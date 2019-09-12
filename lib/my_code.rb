@@ -1,7 +1,64 @@
 # My Code here....
 
+<<<<<<< HEAD
 def map_to_negativize (start_array)
   new_array = []
+=======
+def map_to_negative (source_array)
+  new_array = []
+  i = 0
+  while i < source_array.length do
+    new_array << source_array[i] * (-1)
+    i +=1
+  end
+  new_array
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=begin
+
+
+# My Code here....
+
+def map_to_negativize(source_array)
+  new = []
+>>>>>>> aaa8374e32b4fde1ff87759c2c8f508a158e1597
   i = 0
   while i < start_array.length do
     new_array << start_array[i] * (-1)
@@ -59,4 +116,10 @@ def reduce_to_any_true (start_array)
     i += 1 
   end 
   return false
+<<<<<<< HEAD
 end 
+=======
+end
+
+=end
+>>>>>>> aaa8374e32b4fde1ff87759c2c8f508a158e1597
