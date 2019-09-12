@@ -1,13 +1,13 @@
 # My Code here....
 
-def map_to_negativize (start_array)
-  new_array = []
-  i = 0
-  while i < start_array.length do
-    new_array << start_array[i] * (-1)
-    i +=1
-  end
-  new_array
+def map_to_negativize(start_array)
+  end_array = []
+  i=0
+    while i < start_array.length do
+      end_array << start_array[i] * -1
+      i += 1
+    end
+  end_array
 end
 
 def map_to_no_change (start_array)
@@ -60,3 +60,4 @@ def reduce_to_any_true (start_array)
   end 
   return false
 end 
+
