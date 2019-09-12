@@ -1,6 +1,6 @@
 # My Code here....
 
-def map_to_negativize(source_array)
+def map_to_negativize(start_array)
   end_array = []
   i=0
     while i < start_array.length do
